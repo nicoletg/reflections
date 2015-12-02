@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+	Initialise a git repository using git init creates a git file but with no commits.  You need to do it so you can track the file changes using the git command.
+
