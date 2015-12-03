@@ -1,3 +1,5 @@
 What happens when you initialize a repository? Why do you need to do it?
 	Initialise a git repository using git init creates a git file but with no commits.  You need to do it so you can track the file changes using the git command.
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	The staging area is holding changes that you've made from your working directory.  But you can still discard the changes or commit them, so it's almost like temporary holding area.
