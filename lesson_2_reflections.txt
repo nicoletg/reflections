@@ -14,5 +14,9 @@ To see visualisation of branches: git log --graph --oneline master coins
 
 How do the diagrams help you visualize the branch structure?
 	They help me understand the flow from commits on the branch structure, especially as they relate to the master and what commits are associated with what branches.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	any commits on one branch are merged into another branch. they are diagramed as branches because they fork from the same commit, and are worked on separately without impact on the other branch. They are only integrated branches with the merge command.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	automatic merging uses simple logic to do the merge very quickly; unfortunately git doesn't always know what code should and should not be included in the merge, so it requires some double checking when there is a conflict.
 	
