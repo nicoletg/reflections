@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  If multiple people are working on a project, you have a common repository.  Or if you want someone who is not physically at your own computer to review your code, they can review it from their own computer by accessing a remote repository
+  
+  
